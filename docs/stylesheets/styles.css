@@ -1,0 +1,49 @@
+/* Wrapper */
+.wrapper{
+         border:3px solid gray;
+         height:500px;
+          text-align:center;
+    background-color: darkgrey;
+}
+/*End of wrapper*/
+
+/* Button */
+.button{
+        width:200px;
+        padding:10px;
+        font-size:20px;
+        cursor:pointer;
+         margin-top:20%;
+         margin-left: 5%;
+        border: 2px solid white;
+        border-radius: 10px;
+ }
+
+.button1{
+            
+    background:blue url(./../images/archive.png)no-repeat;
+    background-position: 15% 40%;
+    background-size: 25px;
+}
+
+.button2{
+            
+        background:green url(./../images/fast-forward.png)no-repeat;
+        background-position: 15% 40%;
+        background-size: 25px;
+    
+   
+}
+
+.button1:hover{
+                background-color:darkblue;
+                color:white;
+}
+.button2:hover{
+                background-color:lightgreen;
+                color:white;
+}
+
+
+
+/*End of button */
